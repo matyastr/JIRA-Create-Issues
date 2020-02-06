@@ -1,0 +1,16 @@
+{
+  "name": "jiracreateissues",
+  "version": "1.0.0",
+  "description": "App to grab a set of issues from a Google Sheet and create in JIRA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Matyas",
+  "license": "ISC",
+  "dependencies": {
+    "google-spreadsheet": "^2.0.8",
+    "googleapis": "^39.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
